@@ -55,7 +55,6 @@ const fetchVendors = useCallback(async () => {
   }
 }, [token]);
 
-
   // on token or user change, update localStorage and fetch data
   useEffect(() => {
     if (token) {
