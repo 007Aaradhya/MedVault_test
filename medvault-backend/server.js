@@ -10,7 +10,7 @@ const medsRoutes = require('./routes/meds');
 const app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: true,
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
